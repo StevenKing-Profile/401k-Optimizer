@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": null,
+    "name": "REEIX - RBC Emerging Markets Equity Fund Class I",
+    "allocation_percent": 0.0,
+    "expense_ratio": 1.1,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "emerging_markets"
+    },
+    "account_source": "Truist",
+    "nav": 119.12,
+    "sectors": {
+      "Financials": 0.2173,
+      "Information Technology": 0.2064,
+      "Consumer Discretionary": 0.1553,
+      "Communication Services": 0.0912,
+      "Industrials": 0.0908,
+      "Materials": 0.0815,
+      "Consumer Staples": 0.0654,
+      "Energy": 0.0481,
+      "Health Care": 0.0439
+    },
+    "regions": {
+      "Asia": 0.747,
+      "Latin America": 0.144,
+      "Europe": 0.109
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": null,
+    "name": "MFS Mid Cap Value Fund Class 5",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.75,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "Truist",
+    "nav": 13.79,
+    "sectors": {
+      "Industrials": 0.1745,
+      "Financials": 0.1545,
+      "Consumer Discretionary": 0.1025,
+      "Health Care": 0.1023,
+      "Information Technology": 0.0975,
+      "Materials": 0.0915,
+      "Consumer Staples": 0.0815,
+      "Energy": 0.0715,
+      "Communication Services": 0.0245
+    },
+    "regions": null
+  }
+]

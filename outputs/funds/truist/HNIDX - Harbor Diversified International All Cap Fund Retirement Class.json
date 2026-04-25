@@ -1,0 +1,33 @@
+[
+  {
+    "symbol": null,
+    "name": "HNIDX - Harbor Diversified International All Cap Fund Retirement Class",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.92,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "total"
+    },
+    "account_source": "Truist",
+    "nav": 15.58,
+    "sectors": {
+      "Financials": 0.1923,
+      "Information Technology": 0.1445,
+      "Industrials": 0.144,
+      "Consumer Discretionary": 0.1234,
+      "Health Care": 0.1087,
+      "Materials": 0.0776,
+      "Consumer Staples": 0.0701,
+      "Energy": 0.0398,
+      "Communication Services": 0.0396
+    },
+    "regions": {
+      "Europe": 0.513,
+      "Asia Pacific": 0.331,
+      "North America": 0.091,
+      "Latin America": 0.03,
+      "Middle East": 0.02,
+      "Africa": 0.015
+    }
+  }
+]

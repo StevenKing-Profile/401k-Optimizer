@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae Small Cap Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.015,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "Truist",
+    "nav": 194.71,
+    "sectors": {
+      "Industrials": 0.1125,
+      "Health Care": 0.1177,
+      "Information Technology": 0.1185,
+      "Consumer Discretionary": 0.1083,
+      "Financials": 0.1052,
+      "Materials": 0.0432,
+      "Consumer Staples": 0.0325,
+      "Energy": 0.0315,
+      "Communication Services": 0.0301
+    },
+    "regions": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae Mid Cap Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.015,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "Truist",
+    "nav": 151.59,
+    "sectors": {
+      "Industrials": 0.1591,
+      "Financials": 0.1415,
+      "Information Technology": 0.1325,
+      "Consumer Discretionary": 0.1081,
+      "Health Care": 0.1075,
+      "Materials": 0.0595,
+      "Consumer Staples": 0.0525,
+      "Energy": 0.0425,
+      "Communication Services": 0.0393
+    },
+    "regions": null
+  }
+]

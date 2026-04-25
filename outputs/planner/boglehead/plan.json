@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "persona": "The Boglehead",
+    "aggregate_expense_ratio": 0.3867860000000001,
+    "targets": {
+      "domestic_total": 0.6,
+      "intl_total": 0.4,
+      "lg_cap_share": 0.8,
+      "mid_cap_share": 0.1,
+      "sm_cap_share": 0.1,
+      "intl_total_share": 0.8,
+      "emerging_markets_share": 0.2
+    },
+    "sector_makeup": {
+      "Information Technology": 0.24745000000000003,
+      "Financials": 0.147458,
+      "Communication Services": 0.074526,
+      "Consumer Discretionary": 0.10563000000000002,
+      "Health Care": 0.100846,
+      "Industrials": 0.11932,
+      "Consumer Staples": 0.059614,
+      "Energy": 0.03447,
+      "Utilities": 0.01488,
+      "Materials": 0.050654000000000005,
+      "Real Estate": 0.0045
+    }
+  },
+  "selected_funds": [
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae 500 Index Pool Class F",
+      "allocation_percent": 48.0,
+      "expense_ratio": 0.0065,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "large_cap"
+      },
+      "account_source": "Truist",
+      "nav": 340.19,
+      "sectors": {
+        "Information Technology": 0.3441,
+        "Financials": 0.1251,
+        "Communication Services": 0.1025,
+        "Consumer Discretionary": 0.0984,
+        "Health Care": 0.0925,
+        "Industrials": 0.0904,
+        "Consumer Staples": 0.0525,
+        "Energy": 0.0257,
+        "Utilities": 0.0235,
+        "Materials": 0.0209
+      },
+      "regions": null
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Mid Cap Index Pool Class F",
+      "allocation_percent": 6.0,
+      "expense_ratio": 0.015,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "mid_cap"
+      },
+      "account_source": "Truist",
+      "nav": 151.59,
+      "sectors": {
+        "Industrials": 0.1591,
+        "Financials": 0.1415,
+        "Information Technology": 0.1325,
+        "Consumer Discretionary": 0.1081,
+        "Health Care": 0.1075,
+        "Materials": 0.0595,
+        "Consumer Staples": 0.0525,
+        "Energy": 0.0425,
+        "Communication Services": 0.0393
+      },
+      "regions": null
+    },
+    {
+      "symbol": null,
+      "name": "Brown Advisory Small-Cap Growth Collective Trust Class 2",
+      "allocation_percent": 6.0,
+      "expense_ratio": 0.0061,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "small_cap"
+      },
+      "account_source": "Truist",
+      "nav": 11.68,
+      "sectors": {
+        "Industrials": 0.2173,
+        "Health Care": 0.195,
+        "Information Technology": 0.193,
+        "Materials": 0.095,
+        "Real Estate": 0.075,
+        "Utilities": 0.06,
+        "Consumer Staples": 0.06,
+        "Energy": 0.05,
+        "Communication Services": 0.05
+      },
+      "regions": null
+    },
+    {
+      "symbol": null,
+      "name": "HNIDX - Harbor Diversified International All Cap Fund Retirement Class",
+      "allocation_percent": 32.00000000000001,
+      "expense_ratio": 0.92,
+      "asset_class": {
+        "parent": "international",
+        "sub_class": "total"
+      },
+      "account_source": "Truist",
+      "nav": 15.58,
+      "sectors": {
+        "Financials": 0.1923,
+        "Information Technology": 0.1445,
+        "Industrials": 0.144,
+        "Consumer Discretionary": 0.1234,
+        "Health Care": 0.1087,
+        "Materials": 0.0776,
+        "Consumer Staples": 0.0701,
+        "Energy": 0.0398,
+        "Communication Services": 0.0396
+      },
+      "regions": {
+        "Europe": 0.513,
+        "Asia Pacific": 0.331,
+        "North America": 0.091,
+        "Latin America": 0.03,
+        "Middle East": 0.02,
+        "Africa": 0.015
+      }
+    },
+    {
+      "symbol": null,
+      "name": "REEIX - RBC Emerging Markets Equity Fund Class I",
+      "allocation_percent": 8.000000000000002,
+      "expense_ratio": 1.1,
+      "asset_class": {
+        "parent": "international",
+        "sub_class": "emerging_markets"
+      },
+      "account_source": "Truist",
+      "nav": 119.12,
+      "sectors": {
+        "Financials": 0.2173,
+        "Information Technology": 0.2064,
+        "Consumer Discretionary": 0.1553,
+        "Communication Services": 0.0912,
+        "Industrials": 0.0908,
+        "Materials": 0.0815,
+        "Consumer Staples": 0.0654,
+        "Energy": 0.0481,
+        "Health Care": 0.0439
+      },
+      "regions": {
+        "Asia": 0.747,
+        "Latin America": 0.144,
+        "Europe": 0.109
+      }
+    }
+  ]
+}

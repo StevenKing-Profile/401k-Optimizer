@@ -1,0 +1,19 @@
+[
+  {
+    "name": "State Street Emerging Markets Index Securities Lending Series Fund Class X",
+    "symbol": null,
+    "expense_ratio": 0.045,
+    "nav": 14.82,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "emerging_markets"
+    },
+    "sectors": {
+      "Information Technology": 0.3195
+    },
+    "regions": {
+      "China": 0.2354
+    },
+    "account_source": "gm"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae Global ex US Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.0375,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "large_cap"
+    },
+    "account_source": "Auto",
+    "nav": 203.31,
+    "sectors": {
+      "Financials": 0.2403,
+      "Information Technology": 0.1573,
+      "Industrials": 0.1446,
+      "Consumer Discretionary": 0.0841,
+      "Health Care": 0.0747,
+      "Materials": 0.0714,
+      "Consumer Staples": 0.0559,
+      "Energy": 0.0547
+    },
+    "regions": {
+      "Europe": 0.4158,
+      "Emerging Markets": 0.3222,
+      "Japan": 0.1352,
+      "Canada": 0.0901,
+      "Asia-Pacific ex Japan": 0.0691,
+      "United States": 0.0088,
+      "Other": 0.0,
+      "Cash & Net Other Assets": -0.0412
+    }
+  }
+]

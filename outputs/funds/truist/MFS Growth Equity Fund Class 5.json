@@ -1,0 +1,27 @@
+[
+  {
+    "symbol": null,
+    "name": "MFS Growth Equity Fund Class 5",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.83,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "Truist",
+    "nav": 50.47,
+    "sectors": {
+      "Information Technology": 0.4195,
+      "Communication Services": 0.1225,
+      "Industrials": 0.1152,
+      "Financials": 0.0915,
+      "Consumer Discretionary": 0.0905,
+      "Health Care": 0.0735,
+      "Basic Materials": 0.0335,
+      "Consumer Staples": 0.0275,
+      "Energy": 0.0155,
+      "Utilities": 0.0103
+    },
+    "regions": null
+  }
+]

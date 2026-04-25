@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "persona": "The Tech Bull",
+    "aggregate_expense_ratio": 0.09823250000000001,
+    "targets": {
+      "domestic_total": 0.9,
+      "intl_total": 0.1,
+      "lg_cap_share": 0.95,
+      "mid_cap_share": 0.05,
+      "sm_cap_share": 0.0,
+      "intl_total_share": 1.0,
+      "emerging_markets_share": 0.0
+    },
+    "sector_makeup": {
+      "Information Technology": 0.314618,
+      "Financials": 0.13255799999999998,
+      "Communication Services": 0.093366,
+      "Consumer Discretionary": 0.10133650000000001,
+      "Health Care": 0.09479499999999999,
+      "Industrials": 0.0988515,
+      "Consumer Staples": 0.05426,
+      "Energy": 0.027866000000000002,
+      "Utilities": 0.0200925,
+      "Materials": 0.028307
+    }
+  },
+  "selected_funds": [
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae 500 Index Pool Class F",
+      "allocation_percent": 85.5,
+      "expense_ratio": 0.0065,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "large_cap"
+      },
+      "account_source": "Truist",
+      "nav": 340.19,
+      "sectors": {
+        "Information Technology": 0.3441,
+        "Financials": 0.1251,
+        "Communication Services": 0.1025,
+        "Consumer Discretionary": 0.0984,
+        "Health Care": 0.0925,
+        "Industrials": 0.0904,
+        "Consumer Staples": 0.0525,
+        "Energy": 0.0257,
+        "Utilities": 0.0235,
+        "Materials": 0.0209
+      },
+      "regions": null
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Mid Cap Index Pool Class F",
+      "allocation_percent": 4.500000000000001,
+      "expense_ratio": 0.015,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "mid_cap"
+      },
+      "account_source": "Truist",
+      "nav": 151.59,
+      "sectors": {
+        "Industrials": 0.1591,
+        "Financials": 0.1415,
+        "Information Technology": 0.1325,
+        "Consumer Discretionary": 0.1081,
+        "Health Care": 0.1075,
+        "Materials": 0.0595,
+        "Consumer Staples": 0.0525,
+        "Energy": 0.0425,
+        "Communication Services": 0.0393
+      },
+      "regions": null
+    },
+    {
+      "symbol": null,
+      "name": "HNIDX - Harbor Diversified International All Cap Fund Retirement Class",
+      "allocation_percent": 10.0,
+      "expense_ratio": 0.92,
+      "asset_class": {
+        "parent": "international",
+        "sub_class": "total"
+      },
+      "account_source": "Truist",
+      "nav": 15.58,
+      "sectors": {
+        "Financials": 0.1923,
+        "Information Technology": 0.1445,
+        "Industrials": 0.144,
+        "Consumer Discretionary": 0.1234,
+        "Health Care": 0.1087,
+        "Materials": 0.0776,
+        "Consumer Staples": 0.0701,
+        "Energy": 0.0398,
+        "Communication Services": 0.0396
+      },
+      "regions": {
+        "Europe": 0.513,
+        "Asia Pacific": 0.331,
+        "North America": 0.091,
+        "Latin America": 0.03,
+        "Middle East": 0.02,
+        "Africa": 0.015
+      }
+    }
+  ]
+}

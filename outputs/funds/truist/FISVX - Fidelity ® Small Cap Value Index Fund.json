@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": null,
+    "name": "FISVX - Fidelity \u00ae Small Cap Value Index Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.25,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "Truist",
+    "nav": 32.2,
+    "sectors": {
+      "Financials": 0.2073,
+      "Industrials": 0.1862,
+      "Consumer Discretionary": 0.1284,
+      "Information Technology": 0.0915,
+      "Health Care": 0.0901,
+      "Real Estate": 0.0893,
+      "Materials": 0.0732,
+      "Energy": 0.0604,
+      "Consumer Staples": 0.0462,
+      "Communication Services": 0.0274,
+      "Utilities": 0.0
+    },
+    "regions": null
+  }
+]
