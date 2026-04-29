@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "The LSV U.S. Large Cap Value Equity Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.267,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 54.37,
+    "sectors": {
+      "Financials": 0.2199
+    },
+    "regions": null
+  }
+]

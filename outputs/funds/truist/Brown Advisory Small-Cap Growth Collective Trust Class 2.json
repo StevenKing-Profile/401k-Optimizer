@@ -3,24 +3,24 @@
     "symbol": null,
     "name": "Brown Advisory Small-Cap Growth Collective Trust Class 2",
     "allocation_percent": 0.0,
-    "expense_ratio": 0.0061,
+    "expense_ratio": 0.65,
     "asset_class": {
       "parent": "domestic",
       "sub_class": "small_cap"
     },
-    "account_source": "Truist",
+    "account_source": "truist",
     "nav": 11.68,
     "sectors": {
-      "Industrials": 0.2173,
-      "Health Care": 0.195,
-      "Information Technology": 0.193,
-      "Materials": 0.095,
-      "Real Estate": 0.075,
-      "Utilities": 0.06,
-      "Consumer Staples": 0.06,
-      "Energy": 0.05,
-      "Communication Services": 0.05
+      "Industrials": 0.2773,
+      "Health Care": 0.1935,
+      "Information Technology": 0.1573,
+      "Consumer Discretionary": 0.1355,
+      "Financials": 0.0655,
+      "Materials": 0.0455,
+      "Consumer Staples": 0.0255,
+      "Energy": 0.0,
+      "Communication Services": 0.0
     },
-    "regions": null
+    "regions": "United States"
   }
 ]

@@ -3,23 +3,23 @@
     "symbol": null,
     "name": "Brown Advisory Small-Cap Growth Collective Trust Class 2",
     "allocation_percent": 0.0,
-    "expense_ratio": 0.0061,
+    "expense_ratio": 0.85,
     "asset_class": {
       "parent": "domestic",
       "sub_class": "small_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 11.68,
     "sectors": {
-      "Industrials": 0.2173,
-      "Health Care": 0.195,
-      "Information Technology": 0.193,
-      "Materials": 0.095,
-      "Real Estate": 0.075,
-      "Utilities": 0.06,
-      "Consumer Staples": 0.06,
-      "Energy": 0.05,
-      "Communication Services": 0.05
+      "Industrials": 0.2775,
+      "Health Care": 0.1975,
+      "Information Technology": 0.1573,
+      "Consumer Discretionary": 0.1375,
+      "Financials": 0.0725,
+      "Materials": 0.0425,
+      "Consumer Staples": 0.0375,
+      "Energy": 0.0,
+      "Communication Services": 0.0
     },
     "regions": null
   },
@@ -32,26 +32,24 @@
       "parent": "international",
       "sub_class": "total"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 15.58,
     "sectors": {
-      "Financials": 0.1923,
-      "Information Technology": 0.1445,
-      "Industrials": 0.144,
-      "Consumer Discretionary": 0.1234,
-      "Health Care": 0.1087,
-      "Materials": 0.0776,
-      "Consumer Staples": 0.0701,
-      "Energy": 0.0398,
-      "Communication Services": 0.0396
+      "Financials": 0.1573,
+      "Information Technology": 0.1532,
+      "Industrials": 0.1445,
+      "Consumer Discretionary": 0.1204,
+      "Health Care": 0.1123,
+      "Materials": 0.0812,
+      "Consumer Staples": 0.0745,
+      "Energy": 0.0456,
+      "Communication Services": 0.0405
     },
     "regions": {
-      "Europe": 0.513,
-      "Asia Pacific": 0.331,
-      "North America": 0.091,
-      "Latin America": 0.03,
-      "Middle East": 0.02,
-      "Africa": 0.015
+      "Europe": 0.4823,
+      "Asia Pacific": 0.3124,
+      "North America": 0.1056,
+      "Emerging Markets": 0.0997
     }
   },
   {
@@ -63,19 +61,18 @@
       "parent": "domestic",
       "sub_class": "large_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 50.47,
     "sectors": {
-      "Information Technology": 0.4195,
+      "Technology": 0.4175,
       "Communication Services": 0.1225,
       "Industrials": 0.1152,
       "Financials": 0.0915,
       "Consumer Discretionary": 0.0905,
-      "Health Care": 0.0735,
-      "Basic Materials": 0.0335,
-      "Consumer Staples": 0.0275,
-      "Energy": 0.0155,
-      "Utilities": 0.0103
+      "Basic Materials": 0.0535,
+      "Health Care": 0.0534,
+      "Energy": 0.0315,
+      "Utilities": 0.0244
     },
     "regions": null
   },
@@ -88,19 +85,18 @@
       "parent": "domestic",
       "sub_class": "mid_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 49.33,
     "sectors": {
-      "Industrials": 0.1975,
-      "Information Technology": 0.1875,
-      "Consumer Discretionary": 0.1775,
-      "Health Care": 0.1375,
-      "Materials": 0.0625,
-      "Consumer Staples": 0.0375,
-      "Energy": 0.0275,
-      "Communication Services": 0.0175,
-      "Financials": 0.0175,
-      "Utilities": 0.0175
+      "Financials": 0.062,
+      "Information Technology": 0.197,
+      "Industrials": 0.179,
+      "Consumer Discretionary": 0.177,
+      "Health Care": 0.163,
+      "Materials": 0.063,
+      "Consumer Staples": 0.035,
+      "Energy": 0.015,
+      "Communication Services": 0.025
     },
     "regions": null
   },
@@ -108,53 +104,51 @@
     "symbol": null,
     "name": "REEIX - RBC Emerging Markets Equity Fund Class I",
     "allocation_percent": 0.0,
-    "expense_ratio": 1.1,
+    "expense_ratio": 0.99,
     "asset_class": {
       "parent": "international",
       "sub_class": "emerging_markets"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 119.12,
     "sectors": {
       "Financials": 0.2173,
       "Information Technology": 0.2064,
-      "Consumer Discretionary": 0.1553,
-      "Communication Services": 0.0912,
-      "Industrials": 0.0908,
-      "Materials": 0.0815,
-      "Consumer Staples": 0.0654,
-      "Energy": 0.0481,
-      "Health Care": 0.0439
+      "Industrials": 0.1265,
+      "Consumer Discretionary": 0.1253,
+      "Health Care": 0.0792,
+      "Materials": 0.0781,
+      "Consumer Staples": 0.0664,
+      "Energy": 0.0502,
+      "Communication Services": 0.0506
     },
     "regions": {
-      "Asia": 0.747,
-      "Latin America": 0.144,
-      "Europe": 0.109
+      "Asia": 0.6477,
+      "Latin America": 0.1976,
+      "Europe": 0.1547
     }
   },
   {
     "symbol": null,
     "name": "FISVX - Fidelity \u00ae Small Cap Value Index Fund",
     "allocation_percent": 0.0,
-    "expense_ratio": 0.25,
+    "expense_ratio": 0.05,
     "asset_class": {
       "parent": "domestic",
       "sub_class": "small_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 32.2,
     "sectors": {
-      "Financials": 0.2073,
+      "Financials": 0.1943,
       "Industrials": 0.1862,
-      "Consumer Discretionary": 0.1284,
-      "Information Technology": 0.0915,
+      "Consumer Discretionary": 0.1254,
+      "Information Technology": 0.0912,
       "Health Care": 0.0901,
-      "Real Estate": 0.0893,
-      "Materials": 0.0732,
-      "Energy": 0.0604,
-      "Consumer Staples": 0.0462,
-      "Communication Services": 0.0274,
-      "Utilities": 0.0
+      "Materials": 0.0843,
+      "Consumer Staples": 0.0702,
+      "Energy": 0.0661,
+      "Communication Services": 0.0462
     },
     "regions": null
   },
@@ -167,18 +161,18 @@
       "parent": "domestic",
       "sub_class": "mid_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 151.59,
     "sectors": {
-      "Industrials": 0.1591,
+      "Industrials": 0.1637,
       "Financials": 0.1415,
-      "Information Technology": 0.1325,
-      "Consumer Discretionary": 0.1081,
-      "Health Care": 0.1075,
-      "Materials": 0.0595,
+      "Information Technology": 0.1335,
+      "Consumer Discretionary": 0.1207,
+      "Health Care": 0.1128,
+      "Materials": 0.0815,
       "Consumer Staples": 0.0525,
       "Energy": 0.0425,
-      "Communication Services": 0.0393
+      "Communication Services": 0.0418
     },
     "regions": null
   },
@@ -191,7 +185,7 @@
       "parent": "international",
       "sub_class": "large_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 203.31,
     "sectors": {
       "Financials": 0.1712,
@@ -206,12 +200,10 @@
     },
     "regions": {
       "Emerging Markets": 0.2175,
-      "Europe ex UK": 0.3525,
+      "Europe": 0.4255,
       "Japan": 0.1255,
-      "United Kingdom": 0.0755,
-      "Pacific ex Japan": 0.0475,
-      "Other": 0.0815,
-      "Cash & Net Other Assets": 0.0945
+      "Pacific ex Japan": 0.0775,
+      "Other": 0.154
     }
   },
   {
@@ -223,18 +215,18 @@
       "parent": "domestic",
       "sub_class": "mid_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 13.79,
     "sectors": {
       "Industrials": 0.1745,
-      "Financials": 0.1545,
+      "Financials": 0.1645,
       "Consumer Discretionary": 0.1025,
       "Health Care": 0.1023,
-      "Information Technology": 0.0975,
-      "Materials": 0.0915,
-      "Consumer Staples": 0.0815,
-      "Energy": 0.0715,
-      "Communication Services": 0.0245
+      "Materials": 0.0975,
+      "Information Technology": 0.0915,
+      "Consumer Staples": 0.0715,
+      "Energy": 0.0655,
+      "Communication Services": 0.0302
     },
     "regions": null
   },
@@ -242,24 +234,24 @@
     "symbol": null,
     "name": "Spartan \u00ae 500 Index Pool Class F",
     "allocation_percent": 0.0,
-    "expense_ratio": 0.0055,
+    "expense_ratio": 0.0065,
     "asset_class": {
       "parent": "domestic",
       "sub_class": "large_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 340.19,
     "sectors": {
       "Information Technology": 0.3441,
       "Financials": 0.1251,
       "Communication Services": 0.1025,
-      "Consumer Discretionary": 0.0984,
+      "Consumer Discretionary": 0.0946,
       "Health Care": 0.0925,
       "Industrials": 0.0904,
-      "Consumer Staples": 0.0525,
-      "Energy": 0.0257,
+      "Consumer Staples": 0.0524,
+      "Energy": 0.0255,
       "Utilities": 0.0235,
-      "Materials": 0.0209
+      "Materials": 0.0207
     },
     "regions": null
   },
@@ -272,18 +264,18 @@
       "parent": "domestic",
       "sub_class": "small_cap"
     },
-    "account_source": "Truist",
+    "account_source": "auto",
     "nav": 194.71,
     "sectors": {
       "Industrials": 0.1125,
       "Health Care": 0.1177,
-      "Information Technology": 0.1185,
-      "Consumer Discretionary": 0.1083,
-      "Financials": 0.1052,
+      "Information Technology": 0.1085,
+      "Consumer Discretionary": 0.1035,
+      "Financials": 0.0972,
       "Materials": 0.0432,
       "Consumer Staples": 0.0325,
       "Energy": 0.0315,
-      "Communication Services": 0.0301
+      "Communication Services": 0.0314
     },
     "regions": null
   },
@@ -296,24 +288,274 @@
       "parent": "international",
       "sub_class": null
     },
-    "account_source": "Truist",
-    "nav": 53.55,
+    "account_source": "auto",
+    "nav": 63.55,
     "sectors": {
       "Financials": 0.1573,
       "Information Technology": 0.1552,
-      "Industrials": 0.1457,
-      "Consumer Discretionary": 0.1234,
-      "Health Care": 0.1215,
+      "Industrials": 0.1447,
+      "Consumer Discretionary": 0.1268,
+      "Health Care": 0.1263,
       "Materials": 0.0912,
-      "Consumer Staples": 0.0843,
-      "Energy": 0.0314,
-      "Communication Services": 0.0299
+      "Consumer Staples": 0.0814,
+      "Energy": 0.0405,
+      "Communication Services": 0.0386
     },
     "regions": {
       "Europe": 0.4725,
-      "Asia & Pacific": 0.4323,
-      "Other": 0.0952
+      "Asia & Pacific": 0.4175,
+      "Canada": 0.0455,
+      "United States": 0.0455,
+      "Other": 0.019
     }
+  },
+  {
+    "symbol": null,
+    "name": "State Street Emerging Markets Index Securities Lending Series Fund Class X",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.045,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "emerging_markets"
+    },
+    "account_source": "gm",
+    "nav": 14.82,
+    "sectors": {
+      "Information Technology": 0.3195
+    },
+    "regions": {
+      "China": 0.2354
+    }
+  },
+  {
+    "symbol": null,
+    "name": "State Street S&P 500 \u00ae Index Securities Lending Series Fund Class I",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.003,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 1967.45,
+    "sectors": {
+      "Technology": 0.3356
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Fidelity \u00ae Growth Company Commingled Pool Class S",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.32,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 99.83,
+    "sectors": {
+      "Information Technology": 0.5028,
+      "Consumer Discretionary": 0.1662,
+      "Health Care": 0.0756,
+      "Communication Services": 0.0601,
+      "Consumer Staples": 0.0502,
+      "Industrials": 0.0421,
+      "Materials": 0.0339,
+      "Energy": 0.0317,
+      "Financials": 0.0273
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Diversified Real Asset Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.312,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 15.65,
+    "sectors": {
+      "Domestic Bond": 0.3361,
+      "Cash": 0.3074,
+      "Others": 0.1405,
+      "Domestic Stock": 0.1326,
+      "Foreign Stock": 0.0785,
+      "Preferred Stock": 0.0049,
+      "Foreign Bond": 0.0
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Fidelity \u00ae Contrafund \u00ae Commingled Pool Class S",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.3,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 58.44,
+    "sectors": {
+      "Information Technology": 0.2695,
+      "Communication Services": 0.1298,
+      "Consumer Discretionary": 0.1254,
+      "Health Care": 0.1087,
+      "Financials": 0.0912,
+      "Industrials": 0.0734,
+      "Consumer Staples": 0.061,
+      "Energy": 0.0412,
+      "Materials": 0.0308
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "VFTNX - Vanguard FTSE Social Index Fund Institutional Shares",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.03,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 48.48,
+    "sectors": {
+      "Technology": 0.3969
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "State Street Russell Small/Mid Cap \u00ae Index Securities Lending Series Fund Class II",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.02,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "gm",
+    "nav": 22.16,
+    "sectors": {
+      "Industrials": 0.1791
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "International Equity Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.423,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 11.65,
+    "sectors": {
+      "Financials": 0.2676
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "FIAM Small Capitalization Core Commingled Pool Class B",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.58,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "gm",
+    "nav": 260.95,
+    "sectors": {
+      "Industrials": 0.1857
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Fidelity \u00ae Low-Priced Stock Commingled Pool Class O",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.38,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "small_cap"
+    },
+    "account_source": "gm",
+    "nav": 32.11,
+    "sectors": {
+      "Financials": 0.2066
+    },
+    "regions": {
+      "United States": 0.5962
+    }
+  },
+  {
+    "symbol": null,
+    "name": "BlackRock US Debt Index U/A",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.0293,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 12.42,
+    "sectors": null,
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "ARAIX - Ariel Fund Institutional Class",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.7,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "gm",
+    "nav": 77.12,
+    "sectors": {
+      "Consumer Discretionary": 0.2428
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "The LSV U.S. Large Cap Value Equity Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.267,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 54.37,
+    "sectors": {
+      "Financials": 0.2199
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Multi-Asset Balanced Risk Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.627,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 13.89,
+    "sectors": {
+      "Information Technology": 0.2315
+    },
+    "regions": null
   },
   {
     "symbol": null,
@@ -324,19 +566,306 @@
       "parent": "domestic",
       "sub_class": "small_cap"
     },
-    "account_source": "funds",
+    "account_source": "truist",
     "nav": 11.68,
     "sectors": {
       "Industrials": 0.2773,
       "Health Care": 0.1935,
-      "Technology": 0.1573,
-      "Basic Materials": 0.0925,
-      "Financials": 0.0913,
-      "Consumer Discretionary": 0.0865,
-      "Energy": 0.0543,
-      "Communication Services": 0.0473,
-      "Consumer Staples": 0.0
+      "Information Technology": 0.1573,
+      "Consumer Discretionary": 0.1355,
+      "Financials": 0.0655,
+      "Materials": 0.0455,
+      "Consumer Staples": 0.0255,
+      "Energy": 0.0,
+      "Communication Services": 0.0
     },
     "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "HNIDX - Harbor Diversified International All Cap Fund Retirement Class",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.92,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "total"
+    },
+    "account_source": "truist",
+    "nav": 15.58,
+    "sectors": {
+      "Financials": 0.1923,
+      "Information Technology": 0.1445,
+      "Industrials": 0.1402,
+      "Consumer Discretionary": 0.1201,
+      "Health Care": 0.1123,
+      "Materials": 0.0814,
+      "Consumer Staples": 0.0705,
+      "Energy": 0.0502,
+      "Communication Services": 0.0485
+    },
+    "regions": {
+      "Europe": 0.482,
+      "Asia Pacific": 0.361,
+      "North America": 0.091,
+      "Latin America": 0.041,
+      "Middle East": 0.025
+    }
+  },
+  {
+    "symbol": null,
+    "name": "MFS Growth Equity Fund Class 5",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.83,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "truist",
+    "nav": 50.47,
+    "sectors": {
+      "Technology": 0.4175,
+      "Communication Services": 0.1225,
+      "Industrials": 0.1152,
+      "Financials": 0.0915,
+      "Consumer Discretionary": 0.0905,
+      "Basic Materials": 0.0535,
+      "Health Care": 0.0534,
+      "Energy": 0.0315,
+      "Utilities": 0.0244
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "T. Rowe Price U.S. Mid-Cap Growth Equity Trust Class E",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.52,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "truist",
+    "nav": 49.33,
+    "sectors": {
+      "Financials": 0.0623,
+      "Information Technology": 0.1975,
+      "Industrials": 0.1793,
+      "Consumer Discretionary": 0.1725,
+      "Health Care": 0.143,
+      "Materials": 0.063,
+      "Consumer Staples": 0.0355,
+      "Energy": 0.0105,
+      "Communication Services": 0.0305
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "REEIX - RBC Emerging Markets Equity Fund Class I",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.99,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "emerging_markets"
+    },
+    "account_source": "truist",
+    "nav": 119.12,
+    "sectors": {
+      "Financials": 0.2223,
+      "Information Technology": 0.2114,
+      "Consumer Discretionary": 0.1557,
+      "Communication Services": 0.0912,
+      "Industrials": 0.0903,
+      "Materials": 0.0864,
+      "Consumer Staples": 0.0735,
+      "Energy": 0.0387,
+      "Health Care": 0.0305
+    },
+    "regions": {
+      "Asia": 0.647,
+      "Latin America": 0.171,
+      "Europe": 0.101,
+      "Middle East": 0.041,
+      "Africa": 0.04
+    }
+  },
+  {
+    "symbol": null,
+    "name": "FISVX - Fidelity \u00ae Small Cap Value Index Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.25,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "truist",
+    "nav": 32.2,
+    "sectors": {
+      "Financials": 0.2073,
+      "Industrials": 0.1972,
+      "Consumer Discretionary": 0.1354,
+      "Information Technology": 0.0912,
+      "Health Care": 0.0901,
+      "Materials": 0.0843,
+      "Consumer Staples": 0.0654,
+      "Energy": 0.0642,
+      "Communication Services": 0.0374
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae Mid Cap Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.015,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "truist",
+    "nav": 151.59,
+    "sectors": {
+      "Industrials": 0.1593,
+      "Financials": 0.1415,
+      "Information Technology": 0.1395,
+      "Consumer Discretionary": 0.1081,
+      "Health Care": 0.1075,
+      "Materials": 0.0895,
+      "Consumer Staples": 0.0525,
+      "Energy": 0.0425,
+      "Communication Services": 0.0391
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae Global ex US Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.0355,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "large_cap"
+    },
+    "account_source": "truist",
+    "nav": 203.31,
+    "sectors": {
+      "Financials": 0.1712,
+      "Information Technology": 0.1555,
+      "Industrials": 0.1255,
+      "Consumer Discretionary": 0.1145,
+      "Health Care": 0.1075,
+      "Materials": 0.0775,
+      "Consumer Staples": 0.0755,
+      "Energy": 0.0475,
+      "Communication Services": 0.0475
+    },
+    "regions": {
+      "Emerging Markets": 0.2755,
+      "Europe": 0.4755,
+      "Pacific ex Japan": 0.1755,
+      "Japan": 0.0755
+    }
+  },
+  {
+    "symbol": null,
+    "name": "MFS Mid Cap Value Fund Class 5",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.75,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "truist",
+    "nav": 13.79,
+    "sectors": {
+      "Industrials": 0.1745,
+      "Financials": 0.1645,
+      "Consumer Discretionary": 0.1075,
+      "Health Care": 0.1025,
+      "Materials": 0.0925,
+      "Information Technology": 0.0915,
+      "Consumer Staples": 0.0715,
+      "Energy": 0.0515,
+      "Communication Services": 0.0315
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae 500 Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.0065,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "truist",
+    "nav": 340.19,
+    "sectors": {
+      "Information Technology": 0.3441,
+      "Financials": 0.1251,
+      "Communication Services": 0.1025,
+      "Consumer Discretionary": 0.0946,
+      "Health Care": 0.0925,
+      "Industrials": 0.0904,
+      "Consumer Staples": 0.0524,
+      "Energy": 0.0255,
+      "Utilities": 0.0235,
+      "Materials": 0.0207
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "Spartan \u00ae Small Cap Index Pool Class F",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.015,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "truist",
+    "nav": 194.71,
+    "sectors": {
+      "Industrials": 0.1125,
+      "Health Care": 0.1177,
+      "Information Technology": 0.1085,
+      "Consumer Discretionary": 0.1035,
+      "Financials": 0.0972,
+      "Materials": 0.0432,
+      "Consumer Staples": 0.0325,
+      "Energy": 0.0315,
+      "Communication Services": 0.0314
+    },
+    "regions": null
+  },
+  {
+    "symbol": null,
+    "name": "RERGX - American Funds EUPAC Fund Class R-6",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.49,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": null
+    },
+    "account_source": "truist",
+    "nav": 63.55,
+    "sectors": {
+      "Financials": 0.1573,
+      "Information Technology": 0.1552,
+      "Industrials": 0.1447,
+      "Consumer Discretionary": 0.1268,
+      "Health Care": 0.1234,
+      "Materials": 0.0912,
+      "Consumer Staples": 0.0845,
+      "Energy": 0.0401,
+      "Communication Services": 0.0386
+    },
+    "regions": {
+      "Europe": 0.4725,
+      "Asia": 0.3943,
+      "Japan": 0.0915,
+      "Canada": 0.0417
+    }
   }
 ]

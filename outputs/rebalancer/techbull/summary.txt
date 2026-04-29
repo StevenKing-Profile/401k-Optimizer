@@ -1,0 +1,53 @@
+
+REBALANCER STRATEGY: THE TECH BULL (MULTI-ACCOUNT)
+============================================================
+DOMESTIC LARGE_CAP -> $100,000.00 (50.83 shares) in State Street S&P 500 ® Index Securities Lending Series Fund Class I [GM]
+DOMESTIC LARGE_CAP -> $71,000.00 (208.71 shares) in Spartan ® 500 Index Pool Class F [TRUIST]
+DOMESTIC MID_CAP -> $9,000.00 (59.37 shares) in Spartan ® Mid Cap Index Pool Class F [TRUIST]
+INTERNATIONAL TOTAL -> $20,000.00 (98.37 shares) in Spartan ® Global ex US Index Pool Class F [TRUIST]
+
+PORTFOLIO AGGREGATE EXPENSE RATIO: 0.0080%
+------------------------------------------------------------
+
+AI ADVISORY:
+### **Executive Advisory: Optimized 401(k) Portfolio Analysis**
+
+#### **1. Account Rationale**
+The allocation of funds between GM and TRUIST was strategically designed to minimize expense ratios while adhering to plan-specific fund availability:
+- **GM: State Street S&P 500 Index Fund (ER 0.003%)**  
+  This fund was selected for GM due to its ultra-low expense ratio, making it the most cost-effective option for large-cap domestic exposure. It is significantly cheaper than the Truist alternative (Spartan 500 Index Pool Class F, ER 0.0065%).
+  
+- **TRUIST: Spartan Mid Cap Index Pool Class F (ER 0.015%)**  
+  Mid-cap exposure was placed in TRUIST because GM does not offer a comparable mid-cap fund. The Spartan Mid Cap Index Pool Class F is the best available option within TRUIST for this asset class.
+
+- **TRUIST: Spartan Global ex US Index Pool Class F (ER 0.0355%)**  
+  International exposure was allocated to TRUIST as GM lacks a competitive global equity fund. While the expense ratio is higher than the domestic options, it remains below the 0.05% threshold and provides broad international diversification.
+
+#### **2. Quality Check**
+All selected funds meet the criteria for "Best of Plan" options:
+- **Expense Ratios:** All funds have expense ratios well below the 0.05% threshold, ensuring cost efficiency.
+- **Diversification:** The funds provide broad exposure to their respective asset classes (large-cap, mid-cap, and international equities). None of the funds exhibit poor diversification.
+
+#### **3. BrokerageLink Recommendations**
+BrokerageLink offers access to low-cost ETFs, which may provide superior alternatives to certain plan funds. The following replacements should be prioritized:
+- **Replace Spartan Global ex US Index Pool Class F (ER 0.0355%)**  
+  Consider **Vanguard Total International Stock ETF (VXUS, ER 0.07%)** or **iShares Core MSCI Total International Stock ETF (IXUS, ER 0.09%)** for broader international exposure. While the ER is slightly higher, these ETFs may offer better liquidity and tracking performance.
+  
+- **Replace Spartan Mid Cap Index Pool Class F (ER 0.015%)**  
+  Consider **Vanguard Mid-Cap ETF (VO, ER 0.04%)** or **iShares Core S&P Mid-Cap ETF (IJH, ER 0.05%)** for comparable mid-cap exposure with competitive expense ratios.
+
+#### **4. Sector Analysis**
+The portfolio exhibits reasonable diversification across sectors, but there are notable observations:
+- **Over-Concentration:**  
+  - **Technology (16.78%) and Information Technology (14.40%)** dominate the portfolio, accounting for over 31% of total exposure. While this aligns with market-weighted benchmarks, it may introduce risk during periods of tech sector underperformance.
+  
+- **Underweight Sectors:**  
+  - **Utilities (0.83%)** and **Energy (1.57%)** are underrepresented. While these sectors typically have lower market weights, their minimal exposure may reduce portfolio resilience during inflationary or commodity-driven cycles.
+
+#### **Summary Recommendations**
+1. **Maintain GM's S&P 500 Index Fund** due to its ultra-low expense ratio and broad large-cap exposure.
+2. **Consider replacing TRUIST's Mid-Cap and International funds** with low-cost ETFs via BrokerageLink for improved cost efficiency and tracking performance.
+3. **Monitor sector concentration risks**, particularly the heavy weighting in Technology and Information Technology. Consider adding targeted exposure to underweight sectors (e.g., Utilities, Energy) via ETFs if desired.
+4. **Reassess portfolio allocations periodically** to ensure alignment with long-term investment goals and market conditions.
+
+This portfolio is well-optimized for cost efficiency and diversification but could benefit from minor adjustments via BrokerageLink to further enhance performance and sector balance.

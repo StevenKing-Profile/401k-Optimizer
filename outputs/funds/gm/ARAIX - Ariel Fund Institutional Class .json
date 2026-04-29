@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "ARAIX - Ariel Fund Institutional Class",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.7,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "gm",
+    "nav": 77.12,
+    "sectors": {
+      "Consumer Discretionary": 0.2428
+    },
+    "regions": null
+  }
+]

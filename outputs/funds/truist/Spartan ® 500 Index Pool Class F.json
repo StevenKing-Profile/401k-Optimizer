@@ -8,19 +8,19 @@
       "parent": "domestic",
       "sub_class": "large_cap"
     },
-    "account_source": "Truist",
+    "account_source": "truist",
     "nav": 340.19,
     "sectors": {
       "Information Technology": 0.3441,
       "Financials": 0.1251,
       "Communication Services": 0.1025,
-      "Consumer Discretionary": 0.0984,
+      "Consumer Discretionary": 0.0946,
       "Health Care": 0.0925,
       "Industrials": 0.0904,
-      "Consumer Staples": 0.0525,
-      "Energy": 0.0257,
+      "Consumer Staples": 0.0524,
+      "Energy": 0.0255,
       "Utilities": 0.0235,
-      "Materials": 0.0209
+      "Materials": 0.0207
     },
     "regions": null
   }

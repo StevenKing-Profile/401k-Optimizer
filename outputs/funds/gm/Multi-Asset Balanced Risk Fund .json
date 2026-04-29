@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "Multi-Asset Balanced Risk Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.627,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 13.89,
+    "sectors": {
+      "Information Technology": 0.2315
+    },
+    "regions": null
+  }
+]

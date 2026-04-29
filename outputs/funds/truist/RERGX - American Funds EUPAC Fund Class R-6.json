@@ -3,28 +3,29 @@
     "symbol": null,
     "name": "RERGX - American Funds EUPAC Fund Class R-6",
     "allocation_percent": 0.0,
-    "expense_ratio": 0.49,
+    "expense_ratio": 0.47,
     "asset_class": {
       "parent": "international",
       "sub_class": null
     },
-    "account_source": "Truist",
-    "nav": 53.55,
+    "account_source": "truist",
+    "nav": 63.55,
     "sectors": {
       "Financials": 0.1573,
       "Information Technology": 0.1552,
-      "Industrials": 0.1457,
-      "Consumer Discretionary": 0.1234,
-      "Health Care": 0.1215,
+      "Industrials": 0.1447,
+      "Consumer Discretionary": 0.1268,
+      "Health Care": 0.1234,
       "Materials": 0.0912,
-      "Consumer Staples": 0.0843,
-      "Energy": 0.0314,
-      "Communication Services": 0.0299
+      "Consumer Staples": 0.0845,
+      "Energy": 0.0401,
+      "Communication Services": 0.0386
     },
     "regions": {
       "Europe": 0.4725,
-      "Asia & Pacific": 0.4323,
-      "Other": 0.0952
+      "Asia": 0.3943,
+      "Japan": 0.0915,
+      "Canada": 0.0417
     }
   }
 ]

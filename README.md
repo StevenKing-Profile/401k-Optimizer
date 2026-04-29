@@ -1,4 +1,4 @@
-# Portfolio Planner AI
+# Portfolio Rebalancer AI
 
 An agentic system for extracting, structuring, and optimizing 401(k) investment portfolios from raw fund prospectuses and screenshots.
 
@@ -14,15 +14,16 @@ An agentic system for extracting, structuring, and optimizing 401(k) investment 
 ### 1. Extract Data
 Process local images (automatically tagged by folder, e.g., `images/Truist/`):
 ```bash
-python -m app.batch_processes --local images
+python -m app.batch_processes --local input/funds/
 ```
 
-### 2. Run Planner
-Execute the full multi-agent comparison suite:
+### 2. Run Rebalancer
+Generate math-optimized portfolios for all personas:
 ```bash
-python -m app.planner
+python -m app.rebalancer
 ```
-Results are saved to `outputs/planner/[persona]/` as `plan.json` and `summary.txt`.
+Results are saved to `outputs/rebalancer/[persona]/` as `plan.json` and `summary.txt`.
+
 
 ## Tech Stack
 - **AI**: Azure OpenAI (GPT-4o)

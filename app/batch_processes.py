@@ -114,35 +114,28 @@ def main():
 def process_fund_data(extracted_funds_data):
     processed_funds = []
     for fund_data in extracted_funds_data:
-        fund = None
-        while fund is None:
-            try:
-                fund = Fund(**fund_data)
-            except Exception as e:
-                print(f"\n[!] SCHEMA VALIDATION ERROR for {fund_data.get('name', 'Unknown')}")
-                if "name" not in fund_data or not fund_data["name"]:
-                    fund_data["name"] = input("    Enter Fund Name: ").strip()
+        try:
+            # Basic cleanup of GPT-4o output
+            if "asset_class" in fund_data:
+                ac = fund_data["asset_class"]
+                if ac.get("parent") == "us": ac["parent"] = "domestic"
+                if ac.get("sub_class") == "total_stock_market": ac["sub_class"] = "total"
+            
+            fund = Fund(**fund_data)
+            
+            # Additional validation
+            if not is_valid_asset_class(fund.asset_class):
+                print(f"    [!] Invalid Asset Class: {fund.asset_class}")
+                continue
                 
-                parent = fund_data.get("asset_class", {}).get("parent")
-                if parent not in VALID_PARENTS:
-                    fund_data.setdefault("asset_class", {})["parent"] = input(f"    Enter parent {list(VALID_PARENTS)}: ").strip()
+            if fund.expense_ratio is None:
+                print(f"    [!] Missing Expense Ratio for {fund.name}")
+                continue
                 
-                sub = fund_data.get("asset_class", {}).get("sub_class")
-                if sub not in VALID_SUB_CLASSES:
-                    new_sub = input(f"    Enter sub-class {list(VALID_SUB_CLASSES)} (empty for None): ").strip()
-                    fund_data.setdefault("asset_class", {})["sub_class"] = new_sub if new_sub else None
-
-        while not is_valid_asset_class(fund.asset_class):
-            new_parent = input(f"    Re-enter parent {list(VALID_PARENTS)}: ").strip()
-            new_sub = input(f"    Re-enter sub-class {list(VALID_SUB_CLASSES)}: ").strip()
-            fund.asset_class = AssetClassDetail(parent=new_parent, sub_class=new_sub if new_sub else None)
-
-        while fund.expense_ratio is None:
-            print(f"\n[!] WARNING: Missing expense ratio for {fund.name} ({fund.symbol}).")
-            try:
-                fund.expense_ratio = float(input("    Enter expense ratio: ").strip())
-            except ValueError: pass
-        processed_funds.append(fund)
+            processed_funds.append(fund)
+        except Exception as e:
+            print(f"    [!] SCHEMA VALIDATION ERROR for {fund_data.get('name', 'Unknown')}: {e}")
+            
     return processed_funds
 
 if __name__ == "__main__":

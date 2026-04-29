@@ -3,26 +3,54 @@ from typing import Dict
 from app.schemas import PortfolioTargets
 
 class InvestmentPersona:
-    def __init__(self, name: str, philosophy: str, prompt_logic: str):
+    def __init__(self, name: str, philosophy: str, prompt_logic: str, default_targets: Dict):
         self.name = name
         self.philosophy = philosophy
         self.prompt_logic = prompt_logic
+        self.default_targets = default_targets
 
 PERSONAS = {
     "boglehead": InvestmentPersona(
         name="The Boglehead",
         philosophy="Passive indexing, lowest possible costs, and market-cap weighting.",
-        prompt_logic="Aim for a classic 60/40 US/Intl split. Within US, use 80/10/10 for Lg/Mid/Small. Within Intl, use 80/20 for Total/Emerging."
+        prompt_logic="Aim for a classic 60/40 US/Intl split. Within US, use 80/10/10 for Lg/Mid/Small. Within Intl, use 80/20 for Total/Emerging.",
+        default_targets={
+            "domestic_total": 0.60,
+            "intl_total": 0.40,
+            "lg_cap_share": 0.80,
+            "mid_cap_share": 0.10,
+            "sm_cap_share": 0.10,
+            "intl_total_share": 0.80,
+            "emerging_markets_share": 0.20
+        }
     ),
     "techbull": InvestmentPersona(
         name="The Tech Bull",
         philosophy="Focus on where the innovation is: US Large Cap Growth.",
-        prompt_logic="Aim for 90% Domestic, 10% Intl. Within US, put 95% into Large Cap. Ignore Small-cap and Emerging Markets."
+        prompt_logic="Aim for 90% Domestic, 10% Intl. Within US, put 95% into Large Cap. Ignore Small-cap and Emerging Markets.",
+        default_targets={
+            "domestic_total": 0.90,
+            "intl_total": 0.10,
+            "lg_cap_share": 0.95,
+            "mid_cap_share": 0.05,
+            "sm_cap_share": 0.0,
+            "intl_total_share": 1.0,
+            "emerging_markets_share": 0.0
+        }
     ),
     "globalist": InvestmentPersona(
         name="The Globalist",
         philosophy="The US is overvalued; growth will come from International and Emerging markets.",
-        prompt_logic="Aim for 30% Domestic, 70% Intl. Within Intl, put 40% into Emerging Markets."
+        prompt_logic="Aim for 30% Domestic, 70% Intl. Within Intl, put 40% into Emerging Markets.",
+        default_targets={
+            "domestic_total": 0.30,
+            "intl_total": 0.70,
+            "lg_cap_share": 0.80,
+            "mid_cap_share": 0.10,
+            "sm_cap_share": 0.10,
+            "intl_total_share": 0.60,
+            "emerging_markets_share": 0.40
+        }
     )
 }
 

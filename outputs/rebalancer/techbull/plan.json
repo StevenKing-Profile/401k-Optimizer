@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "persona": "The Tech Bull",
+    "total_value": 200000.0,
+    "aggregate_expense_ratio": 0.008032499999999998,
+    "targets": {
+      "domestic_total": 0.9,
+      "intl_total": 0.1,
+      "lg_cap_share": 0.95,
+      "mid_cap_share": 0.05,
+      "sm_cap_share": 0.0,
+      "intl_total_share": 1.0,
+      "emerging_markets_share": 0.0
+    },
+    "account_dollars": {
+      "gm": 100000.0,
+      "truist": 100000.0
+    },
+    "sector_makeup": {
+      "Technology": 0.1678,
+      "Information Technology": 0.143983,
+      "Financials": 0.06789799999999999,
+      "Communication Services": 0.042897000000000005,
+      "Consumer Discretionary": 0.049897500000000004,
+      "Health Care": 0.048425,
+      "Industrials": 0.051810499999999995,
+      "Consumer Staples": 0.0285145,
+      "Energy": 0.015715,
+      "Utilities": 0.0083425,
+      "Materials": 0.019126
+    }
+  },
+  "selected_funds": [
+    {
+      "symbol": null,
+      "name": "State Street S&P 500 \u00ae Index Securities Lending Series Fund Class I",
+      "allocation_percent": 50.0,
+      "expense_ratio": 0.003,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "large_cap"
+      },
+      "account_source": "gm",
+      "nav": 1967.45,
+      "sectors": {
+        "Technology": 0.3356
+      },
+      "regions": null,
+      "shares": 50.8272,
+      "allocated_dollars": 100000.0
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae 500 Index Pool Class F",
+      "allocation_percent": 35.5,
+      "expense_ratio": 0.0065,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "large_cap"
+      },
+      "account_source": "truist",
+      "nav": 340.19,
+      "sectors": {
+        "Information Technology": 0.3441,
+        "Financials": 0.1251,
+        "Communication Services": 0.1025,
+        "Consumer Discretionary": 0.0946,
+        "Health Care": 0.0925,
+        "Industrials": 0.0904,
+        "Consumer Staples": 0.0524,
+        "Energy": 0.0255,
+        "Utilities": 0.0235,
+        "Materials": 0.0207
+      },
+      "regions": null,
+      "shares": 208.7069,
+      "allocated_dollars": 71000.0
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Mid Cap Index Pool Class F",
+      "allocation_percent": 4.500000000000001,
+      "expense_ratio": 0.015,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "mid_cap"
+      },
+      "account_source": "truist",
+      "nav": 151.59,
+      "sectors": {
+        "Industrials": 0.1593,
+        "Financials": 0.1415,
+        "Information Technology": 0.1395,
+        "Consumer Discretionary": 0.1081,
+        "Health Care": 0.1075,
+        "Materials": 0.0895,
+        "Consumer Staples": 0.0525,
+        "Energy": 0.0425,
+        "Communication Services": 0.0391
+      },
+      "regions": null,
+      "shares": 59.3707,
+      "allocated_dollars": 9000.0
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Global ex US Index Pool Class F",
+      "allocation_percent": 10.0,
+      "expense_ratio": 0.0355,
+      "asset_class": {
+        "parent": "international",
+        "sub_class": "total"
+      },
+      "account_source": "truist",
+      "nav": 203.31,
+      "sectors": {
+        "Financials": 0.1712,
+        "Information Technology": 0.1555,
+        "Industrials": 0.1255,
+        "Consumer Discretionary": 0.1145,
+        "Health Care": 0.1075,
+        "Materials": 0.0775,
+        "Consumer Staples": 0.0755,
+        "Energy": 0.0475,
+        "Communication Services": 0.0475
+      },
+      "regions": {
+        "Emerging Markets": 0.2755,
+        "Europe": 0.4755,
+        "Pacific ex Japan": 0.1755,
+        "Japan": 0.0755
+      },
+      "shares": 98.3719,
+      "allocated_dollars": 20000.0
+    }
+  ]
+}

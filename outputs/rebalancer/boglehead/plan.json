@@ -1,0 +1,170 @@
+{
+  "summary": {
+    "persona": "The Boglehead",
+    "total_value": 150000.0,
+    "aggregate_expense_ratio": 0.01441333333333333,
+    "targets": {
+      "domestic_total": 0.6,
+      "intl_total": 0.4,
+      "lg_cap_share": 0.8,
+      "mid_cap_share": 0.1,
+      "sm_cap_share": 0.1,
+      "intl_total_share": 0.8,
+      "emerging_markets_share": 0.2
+    },
+    "account_dollars": {
+      "gm": 100000.0,
+      "truist": 50000.0
+    },
+    "sector_makeup": {
+      "Technology": 0.161088,
+      "Industrials": 0.04308133333333333,
+      "Financials": 0.05084466666666666,
+      "Information Technology": 0.07361333333333334,
+      "Consumer Discretionary": 0.037122666666666665,
+      "Health Care": 0.03644533333333333,
+      "Materials": 0.024495333333333334,
+      "Consumer Staples": 0.02120666666666667,
+      "Energy": 0.014573333333333334,
+      "Communication Services": 0.014363333333333334,
+      "Unknown": 0.05444000000000001
+    }
+  },
+  "selected_funds": [
+    {
+      "symbol": null,
+      "name": "State Street S&P 500 \u00ae Index Securities Lending Series Fund Class I",
+      "allocation_percent": 48.0,
+      "expense_ratio": 0.003,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "large_cap"
+      },
+      "account_source": "gm",
+      "nav": 1967.45,
+      "sectors": {
+        "Technology": 0.3356
+      },
+      "regions": null,
+      "shares": 36.5956,
+      "allocated_dollars": 72000.0
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Mid Cap Index Pool Class F",
+      "allocation_percent": 6.0,
+      "expense_ratio": 0.015,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "mid_cap"
+      },
+      "account_source": "truist",
+      "nav": 151.59,
+      "sectors": {
+        "Industrials": 0.1593,
+        "Financials": 0.1415,
+        "Information Technology": 0.1395,
+        "Consumer Discretionary": 0.1081,
+        "Health Care": 0.1075,
+        "Materials": 0.0895,
+        "Consumer Staples": 0.0525,
+        "Energy": 0.0425,
+        "Communication Services": 0.0391
+      },
+      "regions": null,
+      "shares": 59.3707,
+      "allocated_dollars": 9000.0
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Small Cap Index Pool Class F",
+      "allocation_percent": 6.0,
+      "expense_ratio": 0.015,
+      "asset_class": {
+        "parent": "domestic",
+        "sub_class": "small_cap"
+      },
+      "account_source": "truist",
+      "nav": 194.71,
+      "sectors": {
+        "Industrials": 0.1125,
+        "Health Care": 0.1177,
+        "Information Technology": 0.1085,
+        "Consumer Discretionary": 0.1035,
+        "Financials": 0.0972,
+        "Materials": 0.0432,
+        "Consumer Staples": 0.0325,
+        "Energy": 0.0315,
+        "Communication Services": 0.0314
+      },
+      "regions": null,
+      "shares": 46.2226,
+      "allocated_dollars": 9000.0
+    },
+    {
+      "symbol": null,
+      "name": "Spartan \u00ae Global ex US Index Pool Class F",
+      "allocation_percent": 21.333333333333336,
+      "expense_ratio": 0.0355,
+      "asset_class": {
+        "parent": "international",
+        "sub_class": "total"
+      },
+      "account_source": "truist",
+      "nav": 203.31,
+      "sectors": {
+        "Financials": 0.1712,
+        "Information Technology": 0.1555,
+        "Industrials": 0.1255,
+        "Consumer Discretionary": 0.1145,
+        "Health Care": 0.1075,
+        "Materials": 0.0775,
+        "Consumer Staples": 0.0755,
+        "Energy": 0.0475,
+        "Communication Services": 0.0475
+      },
+      "regions": {
+        "Emerging Markets": 0.2755,
+        "Europe": 0.4755,
+        "Pacific ex Japan": 0.1755,
+        "Japan": 0.0755
+      },
+      "shares": 157.3951,
+      "allocated_dollars": 32000.0
+    },
+    {
+      "symbol": null,
+      "name": "State Street Emerging Markets Index Securities Lending Series Fund Class X",
+      "allocation_percent": 8.000000000000002,
+      "expense_ratio": 0.045,
+      "asset_class": {
+        "parent": "international",
+        "sub_class": "emerging_markets"
+      },
+      "account_source": "gm",
+      "nav": 14.82,
+      "sectors": {
+        "Information Technology": 0.3195,
+        "Unknown": 0.6805
+      },
+      "regions": {
+        "China": 0.2354
+      },
+      "shares": 809.7166,
+      "allocated_dollars": 12000.0
+    },
+    {
+      "name": "Cash / Sweep",
+      "symbol": "CASH",
+      "allocation_percent": 10.666666666666666,
+      "allocated_dollars": 16000.0,
+      "shares": 16000.0,
+      "expense_ratio": 0.0,
+      "account_source": "gm",
+      "asset_class": {
+        "parent": "cash",
+        "sub_class": null
+      }
+    }
+  ]
+}

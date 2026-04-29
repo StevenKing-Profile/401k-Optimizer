@@ -1,0 +1,20 @@
+[
+  {
+    "symbol": null,
+    "name": "Fidelity \u00ae Low-Priced Stock Commingled Pool Class O",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.38,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": "small_cap"
+    },
+    "account_source": "gm",
+    "nav": 32.11,
+    "sectors": {
+      "Financials": 0.2066
+    },
+    "regions": {
+      "United States": 0.5962
+    }
+  }
+]

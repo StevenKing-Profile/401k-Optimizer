@@ -93,7 +93,11 @@ Return ONLY the raw JSON object.
   "symbol": null,
   "expense_ratio": float,
   "nav": decimal,
-  "asset_class": {{ "parent": "domestic"|"international", "sub_class": "small_cap"|"mid_cap"|"large_cap"|"emerging_markets"|"total"|null }},
+  "asset_class": {{ 
+    "parent": "domestic"|"international", 
+    "sub_class": "small_cap"|"mid_cap"|"large_cap"|"emerging_markets"|"total" 
+  }},
+  "NOTE": "For International funds, 'Global ex-US', 'International Index', or 'Total International' MUST be mapped to 'total' sub_class, NOT 'large_cap'."
   "sectors": {{ "Label": decimal }},
   "regions": {{ "Label": decimal }}
 }}
@@ -158,19 +162,36 @@ Return ONLY the raw JSON object.
             # Rescue expense_ratio if nested in a dict
             if isinstance(item.get("expense_ratio"), dict):
                 er_dict = item["expense_ratio"]
-                # Prefer 'net', then 'gross', then any float found
                 item["expense_ratio"] = er_dict.get("net") or er_dict.get("gross") or next((v for v in er_dict.values() if isinstance(v, (int, float))), None)
 
+            # Ensure numeric types for sectors and regions, removing Nulls
             for field in ["sectors", "regions"]:
-                if field in item and isinstance(item[field], list):
-                    flattened = {}
-                    for entry in item[field]:
-                        if isinstance(entry, dict):
-                            keys = list(entry.keys())
-                            if len(keys) >= 2:
-                                label = str(entry[keys[0]])
-                                val = entry[keys[1]]
-                                flattened[label] = val
-                    item[field] = flattened
+                if field in item:
+                    if isinstance(item[field], dict):
+                        # Filter out None values and ensure floats
+                        cleaned = {}
+                        for k, v in item[field].items():
+                            try:
+                                if v is not None:
+                                    cleaned[k] = float(v)
+                            except (ValueError, TypeError):
+                                pass
+                        item[field] = cleaned if cleaned else None
+                    elif isinstance(item[field], list):
+                        flattened = {}
+                        for entry in item[field]:
+                            if isinstance(entry, dict):
+                                keys = list(entry.keys())
+                                if len(keys) >= 2:
+                                    try:
+                                        label = str(entry[keys[0]])
+                                        val = entry[keys[1]]
+                                        if val is not None:
+                                            flattened[label] = float(val)
+                                    except (ValueError, TypeError):
+                                        pass
+                        item[field] = flattened if flattened else None
+                    else:
+                        item[field] = None
 
         return extracted_data

@@ -8,26 +8,25 @@
       "parent": "international",
       "sub_class": "total"
     },
-    "account_source": "Truist",
+    "account_source": "truist",
     "nav": 15.58,
     "sectors": {
       "Financials": 0.1923,
       "Information Technology": 0.1445,
-      "Industrials": 0.144,
-      "Consumer Discretionary": 0.1234,
-      "Health Care": 0.1087,
-      "Materials": 0.0776,
-      "Consumer Staples": 0.0701,
-      "Energy": 0.0398,
-      "Communication Services": 0.0396
+      "Industrials": 0.1402,
+      "Consumer Discretionary": 0.1201,
+      "Health Care": 0.1123,
+      "Materials": 0.0814,
+      "Consumer Staples": 0.0705,
+      "Energy": 0.0502,
+      "Communication Services": 0.0485
     },
     "regions": {
-      "Europe": 0.513,
-      "Asia Pacific": 0.331,
+      "Europe": 0.482,
+      "Asia Pacific": 0.361,
       "North America": 0.091,
-      "Latin America": 0.03,
-      "Middle East": 0.02,
-      "Africa": 0.015
+      "Latin America": 0.041,
+      "Middle East": 0.025
     }
   }
 ]

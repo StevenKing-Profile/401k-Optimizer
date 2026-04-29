@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": null,
+    "name": "Fidelity \u00ae Contrafund \u00ae Commingled Pool Class S",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.3,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 58.44,
+    "sectors": {
+      "Information Technology": 0.2695,
+      "Communication Services": 0.1298,
+      "Consumer Discretionary": 0.1254,
+      "Health Care": 0.1087,
+      "Financials": 0.0912,
+      "Industrials": 0.0734,
+      "Consumer Staples": 0.061,
+      "Energy": 0.0412,
+      "Materials": 0.0308
+    },
+    "regions": null
+  }
+]

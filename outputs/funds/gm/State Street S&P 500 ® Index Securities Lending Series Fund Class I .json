@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "State Street S&P 500 \u00ae Index Securities Lending Series Fund Class I",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.003,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 1967.45,
+    "sectors": {
+      "Technology": 0.3356
+    },
+    "regions": null
+  }
+]

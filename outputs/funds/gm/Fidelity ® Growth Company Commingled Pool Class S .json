@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": null,
+    "name": "Fidelity \u00ae Growth Company Commingled Pool Class S",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.32,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 99.83,
+    "sectors": {
+      "Information Technology": 0.5028,
+      "Consumer Discretionary": 0.1662,
+      "Health Care": 0.0756,
+      "Communication Services": 0.0601,
+      "Consumer Staples": 0.0502,
+      "Industrials": 0.0421,
+      "Materials": 0.0339,
+      "Energy": 0.0317,
+      "Financials": 0.0273
+    },
+    "regions": null
+  }
+]

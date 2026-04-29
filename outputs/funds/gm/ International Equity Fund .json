@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "International Equity Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.423,
+    "asset_class": {
+      "parent": "international",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 11.65,
+    "sectors": {
+      "Financials": 0.2676
+    },
+    "regions": null
+  }
+]

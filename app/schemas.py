@@ -32,3 +32,7 @@ class PortfolioTargets(BaseModel):
     # International breakdown
     intl_total_share: float = 0.80 # e.g. 80% of the intl 40%
     emerging_markets_share: float = 0.20
+
+class AccountBalance(BaseModel):
+    account_name: str
+    balance: float  # Absolute or relative weight

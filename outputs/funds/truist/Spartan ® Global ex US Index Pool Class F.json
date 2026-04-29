@@ -6,9 +6,9 @@
     "expense_ratio": 0.0355,
     "asset_class": {
       "parent": "international",
-      "sub_class": "large_cap"
+      "sub_class": "total"
     },
-    "account_source": "Truist",
+    "account_source": "truist",
     "nav": 203.31,
     "sectors": {
       "Financials": 0.1712,
@@ -16,19 +16,16 @@
       "Industrials": 0.1255,
       "Consumer Discretionary": 0.1145,
       "Health Care": 0.1075,
-      "Materials": 0.0755,
-      "Consumer Staples": 0.0715,
+      "Materials": 0.0775,
+      "Consumer Staples": 0.0755,
       "Energy": 0.0475,
-      "Communication Services": 0.0473
+      "Communication Services": 0.0475
     },
     "regions": {
-      "Emerging Markets": 0.2175,
-      "Europe ex UK": 0.3525,
-      "Japan": 0.1255,
-      "United Kingdom": 0.0755,
-      "Pacific ex Japan": 0.0475,
-      "Other": 0.0815,
-      "Cash & Net Other Assets": 0.0945
+      "Emerging Markets": 0.2755,
+      "Europe": 0.4755,
+      "Pacific ex Japan": 0.1755,
+      "Japan": 0.0755
     }
   }
 ]

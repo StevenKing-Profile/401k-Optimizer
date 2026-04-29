@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "FIAM Small Capitalization Core Commingled Pool Class B",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.58,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "small_cap"
+    },
+    "account_source": "gm",
+    "nav": 260.95,
+    "sectors": {
+      "Industrials": 0.1857
+    },
+    "regions": null
+  }
+]

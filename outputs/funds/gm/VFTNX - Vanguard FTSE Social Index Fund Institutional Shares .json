@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "VFTNX - Vanguard FTSE Social Index Fund Institutional Shares",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.03,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "large_cap"
+    },
+    "account_source": "gm",
+    "nav": 48.48,
+    "sectors": {
+      "Technology": 0.3969
+    },
+    "regions": null
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "symbol": null,
+    "name": "Diversified Real Asset Fund",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.312,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 15.65,
+    "sectors": {
+      "Domestic Bond": 0.3361,
+      "Cash": 0.3074,
+      "Others": 0.1405,
+      "Domestic Stock": 0.1326,
+      "Foreign Stock": 0.0785,
+      "Preferred Stock": 0.0049,
+      "Foreign Bond": 0.0
+    },
+    "regions": null
+  }
+]

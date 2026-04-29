@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": null,
+    "name": "State Street Russell Small/Mid Cap \u00ae Index Securities Lending Series Fund Class II",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.02,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": "mid_cap"
+    },
+    "account_source": "gm",
+    "nav": 22.16,
+    "sectors": {
+      "Industrials": 0.1791
+    },
+    "regions": null
+  }
+]

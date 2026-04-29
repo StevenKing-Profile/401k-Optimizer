@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": null,
+    "name": "BlackRock US Debt Index U/A",
+    "allocation_percent": 0.0,
+    "expense_ratio": 0.0293,
+    "asset_class": {
+      "parent": "domestic",
+      "sub_class": null
+    },
+    "account_source": "gm",
+    "nav": 12.42,
+    "sectors": null,
+    "regions": null
+  }
+]
