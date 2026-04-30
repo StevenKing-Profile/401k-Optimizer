@@ -15,6 +15,10 @@ class AzureDocumentClient:
         # Azure Storage Setup (Entra ID Authorization)
         self.credential = DefaultAzureCredential()
         account_url = os.getenv("AZURE_STORAGE_ACCOUNT_URL")
+        
+        if not account_url:
+            raise ValueError("AZURE_STORAGE_ACCOUNT_URL environment variable is missing or empty.")
+            
         self.blob_service_client = BlobServiceClient(account_url, credential=self.credential)
 
         # Azure OpenAI Setup (Static Key Authorization)

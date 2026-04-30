@@ -208,7 +208,7 @@ def rebalance_portfolio(
         return f"Rebalancing failed: {e}"
 
 # To host on a domain, we expose the MCP as a FastAPI app
-app = mcp.get_fastapi_app()
+app = mcp.http_app
 
 if __name__ == "__main__":
     import uvicorn

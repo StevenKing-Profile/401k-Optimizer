@@ -1,0 +1,40 @@
+FROM python:3.14-slim
+
+# Install uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# Install system build dependencies (required for some python packages)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    python3-dev \
+    libmagic-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Ensure logs are transmitted in real-time
+ENV PYTHONUNBUFFERED=1
+
+# Enable bytecode compilation and use system python
+ENV UV_COMPILE_BYTECODE=1
+ENV UV_SYSTEM_PYTHON=1
+
+# 1. Copy project files
+COPY pyproject.toml uv.lock README.md ./
+COPY app ./app
+COPY input ./input
+COPY outputs ./outputs
+COPY portfolio.json ./portfolio.json
+
+# 2. Install EVERYTHING into system python
+RUN uv pip install --system .
+
+# Set PYTHONPATH
+ENV PYTHONPATH=.
+
+# Expose Streamlit port
+EXPOSE 8501
+
+# Run the UI using system python directly
+CMD ["streamlit", "run", "app/gui.py", "--server.port", "8501", "--server.address", "0.0.0.0", "--server.headless", "true"]

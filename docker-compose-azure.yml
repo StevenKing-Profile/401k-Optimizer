@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  mcp-server:
+    image: steven401k.azurecr.io/portfolio-mcp:v2
+    container_name: portfolio-mcp
+    ports:
+      - "8000:8000"
+    environment:
+      - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+    restart: always
+
+  ui:
+    image: steven401k.azurecr.io/portfolio-ui:v2
+    container_name: portfolio-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+      - APP_USERNAME=${APP_USERNAME}
+      - APP_PASSWORD=${APP_PASSWORD}
+      # In Azure App Service Multi-container, they share localhost
+      - MCP_SERVER_URL=http://localhost:8000/sse
+    depends_on:
+      - mcp-server
+    restart: always

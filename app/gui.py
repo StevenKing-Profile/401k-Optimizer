@@ -82,33 +82,27 @@ if "messages" not in st.session_state:
 # --- AUTHENTICATION GATE ---
 def check_password():
     """Returns `True` if the user had the correct password."""
-    def password_entered():
-        """Checks whether a password entered by the user is correct."""
-        if (
-            st.session_state["username"] == os.getenv("APP_USERNAME", "admin")
-            and st.session_state["password"] == os.getenv("APP_PASSWORD", "demo123")
-        ):
-            st.session_state["authenticated"] = True
-            del st.session_state["password"]  # don't store password
-            del st.session_state["username"]
-        else:
-            st.session_state["authenticated"] = False
-
-    if not st.session_state["authenticated"]:
-        # Display login form
-        st.title("🔒 Portfolio Optimizer Secure Access")
-        st.info("This application is private. Please enter your credentials to continue.")
-        
-        with st.form("login_form"):
-            st.text_input("Username", key="username")
-            st.text_input("Password", type="password", key="password")
-            st.form_submit_button("Login", on_click=password_entered)
-        
-        if "username" in st.session_state and not st.session_state["authenticated"]:
-            st.error("😕 User not known or password incorrect")
-        return False
-    else:
+    if st.session_state.get("authenticated"):
         return True
+
+    st.title("🔒 Portfolio Optimizer Secure Access")
+    st.info("This application is private. Please enter your credentials to continue.")
+    
+    with st.form("login_form"):
+        username = st.text_input("Username")
+        password = st.text_input("Password", type="password")
+        submit = st.form_submit_button("Login")
+        
+        if submit:
+            valid_user = os.getenv("APP_USERNAME")
+            valid_pass = os.getenv("APP_PASSWORD")
+            
+            if username == valid_user and password == valid_pass:
+                st.session_state["authenticated"] = True
+                st.rerun()
+            else:
+                st.error("😕 User not known or password incorrect")
+    return False
 
 if not check_password():
     st.stop()  # Do not continue if not authenticated
